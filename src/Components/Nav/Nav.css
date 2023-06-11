@@ -30,3 +30,18 @@ nav a{
 nav a.active{
       color: var(--color-white);
 }
+
+.short-nav{
+      display: none;
+}
+
+/* ======================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS)=====================*/
+@media screen and (max-width: 1024px) {
+      .long-nav{
+            display: none;
+      }
+
+      .short-nav{
+            display: contents;
+      }
+}

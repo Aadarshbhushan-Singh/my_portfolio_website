@@ -5,8 +5,7 @@ import ME from '../../Assets/me.png';
 import Aadarsh from '../../Assets/Aadarsh.png'
 import HeaderSocials from "./HeaderSocials";
 import {FaPrayingHands} from 'react-icons/fa'
-
-
+import About from "../About/About";
 
 function Header () {
       
@@ -22,7 +21,9 @@ function Header () {
                         <div className="me">
                               <img src={Aadarsh} alt="MY IMAGE HERE" />
                         </div>
-                        
+
+
+
                         <a className="scroll__down" href="#contact">Scroll Down</a>
                   </div>
 

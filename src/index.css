@@ -76,7 +76,7 @@ h1{
 
 section{
   margin-top: 8rem;
-  height: 100vh;
+  height: 100%;
 }
 
 section > h2, section > h5{
@@ -151,5 +151,13 @@ img{
 
   section > h2{
     margin-bottom: 2rem;
+  }
+}
+
+
+/* ======================= MEDIA QUERIES (EXTRA SMALL DEVICES - MOBILE PHONES)=====================*/
+@media screen and (max-width: 375px) {
+  h1{
+    font-size: 160%;
   }
 }

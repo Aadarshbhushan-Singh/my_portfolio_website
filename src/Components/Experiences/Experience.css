@@ -1,0 +1,67 @@
+.experience__container{
+      display: grid;
+      grid-template-columns: 48% 50%;
+      gap: 5%;
+      
+}
+
+.experience__bain, .experience__ambher{
+      background: var(--color-bg-variant);
+      border: 1px solid transparent;
+      border-radius: 0 0 2rem 2rem;
+      /* padding: 1rem 3rem 3rem 3rem; */
+      text-align: justify;
+      transition: var(--transition);
+      font-size: 90%;
+}
+
+.experience__bain h3, .experience__ambher h3{
+      background-color: var(--color-primary-variant);
+      font-weight: bolder;
+      border: 1px solid transparent;
+      border-radius: 0 0 10rem 10rem;
+      margin-bottom: 2rem;
+}
+
+.experience__details__bain, .experience__details__ambher{
+      padding: 1rem 3rem 3rem 3rem;
+}
+
+.experience__bain:hover, .experience__ambher:hover{
+      background-color : transparent;
+      border-color: var(--color-primary-variant); 
+      cursor: default;
+}
+
+.experience__bold__span{
+      font-size: 110%;
+      font-weight: bold;
+}
+
+.experience__container h3{
+      color: var(--color-primary);
+      text-align: center;
+      padding: 1.5rem 0 1.5rem 0;
+}
+
+.date__span{
+      font-size: 70%;
+      color: var(--color-white);
+}
+.experience__bullet__icon{
+      color: var(--color-primary);
+}
+
+/*===================== MEDIA QUERIES (TABLET DEVICES) ==================*/
+@media screen and (max-width: 1024px) {
+      .experience__container{
+            display: block;
+      }
+
+      .experience__bain, .experience__ambher{
+            margin-top: 5rem;
+      }
+}
+
+
+
