@@ -1,0 +1,35 @@
+.achievements__container{
+      width: 50%;
+      
+}
+
+.achievement{
+      background-color: var(--color-bg-variant);
+      text-align: center;
+      border: 1px solid transparent;
+      border-radius: 2rem;
+      padding: 2rem;
+}
+
+.achievement a{
+      display: block;
+      margin: auto;
+}
+
+#achievement_icon{
+      width: 100%;
+      height: 5rem;
+}
+
+.achievement h5{
+      margin: 1rem 0rem;
+}
+
+
+/* ======================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS)=====================*/
+@media screen and (max-width: 1024px) {
+      .achievements__container{
+            width: 80%;
+      }
+
+}

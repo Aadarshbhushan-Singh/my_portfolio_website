@@ -20,17 +20,20 @@ function Nav() {
                         <a href="#experiences" onClick={()=>{setActiveNav('experiences')}} className={activeNav === 'experiences' ? 'active':''}><BsPersonWorkspace id="nav-icon"/>Experiences</a>
                         <a href="#projects" onClick={()=>{setActiveNav('projects')}} className={activeNav === 'projects' ? 'active':''} ><BiBookAdd id="nav-icon"/>Projects</a>
                         <a href="#education" onClick={()=>{setActiveNav('education')}} className={activeNav === 'education' ? 'active' : ''}><TbSchool id="nav-icon"/>Education</a>
-                        <a href="#portfolio" onClick={()=>{setActiveNav('portfolio')}} className={activeNav === 'portfolio'?'active':''}><FaAward id="nav-icon"/>Portfolio</a>
+                        <a href="#achievements" onClick={()=>{setActiveNav('achievements')}} className={activeNav === 'achievements'?'active':''}><FaAward id="nav-icon"/>Achievements</a>
                         <a href="#contacts" onClick={()=>{setActiveNav('contacts')}} className={activeNav === 'contacts'?'active':''}><AiOutlineContacts id="nav-icon"/>Contacts</a>
                   </div>
 
+
+
+                  
                   <div className="short-nav">
                         <a href="#" onClick={()=>{setActiveNav('#')}}className={activeNav === '#' ? 'active':''}><AiOutlineHome id="nav-icon"/> </a>
                         <a href="#about" onClick={()=>{setActiveNav('about')}} className={activeNav==='about'?'active':''}><BiUser id="nav-icon"/> </a>
                         <a href="#experiences" onClick={()=>{setActiveNav('experiences')}} className={activeNav === 'experiences' ? 'active':''}><BsPersonWorkspace      id="nav-icon"/></a>
                         <a href="#projects" onClick={()=>{setActiveNav('projects')}} className={activeNav === 'projects' ? 'active':''} ><BiBookAdd id="nav-icon"/></a>
                         <a href="#education" onClick={()=>{setActiveNav('education')}} className={activeNav === 'education' ? 'active' : ''}><TbSchool id="nav-icon"/></a>
-                        <a href="#portfolio" onClick={()=>{setActiveNav('portfolio')}} className={activeNav === 'portfolio'?'active':''}><FaAward id="nav-icon"/></a>
+                        <a href="#achievements" onClick={()=>{setActiveNav('achievements')}} className={activeNav === 'achievements'?'active':''}><FaAward id="nav-icon"/></a>
                         <a href="#contacts" onClick={()=>{setActiveNav('contacts')}} className={activeNav === 'contacts'?'active':''}><AiOutlineContacts id="nav-icon"/></a>
                   </div>
             </nav>
