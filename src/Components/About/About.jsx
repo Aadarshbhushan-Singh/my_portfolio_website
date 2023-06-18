@@ -32,7 +32,7 @@ function About () {
                                           <small>Proven expertise through numerous successful projects</small>
                                     </article>
                                     </a>
-                                    <a href="#portfolio">
+                                    <a href="#achievements">
                                     <article className="about__card">
                                           <FaAward className="about__icon"/>
                                           <h5>Achievements</h5>
