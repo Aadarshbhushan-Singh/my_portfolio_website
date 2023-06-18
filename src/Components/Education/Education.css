@@ -1,0 +1,82 @@
+.education__skills__container{
+      border: 1px solid transparent;
+      display: grid;
+      grid-template-columns: 48% 48%;
+      gap: 4%;
+      padding: 3rem 0 0 0;
+      margin-top: 5%;
+
+     
+}
+
+.about__me__container, .eduskill__container{
+      border-radius: 2.5rem;
+      --c: no-repeat linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+      background: 
+        var(--c)  calc(-101% + var(--p,0%)) 0%,
+        var(--c)  calc( 201% - var(--p,0%)) 100%;
+        background-color: var(--color-bg-variant);
+      background-size: 50.1% var(--p,.08em);
+      transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+}
+
+.about__me__container:hover, .eduskill__container:hover{
+      --p: 101%;
+      --t: 0.3s;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid var(--color-primary-variant);
+}
+.about__me__container h5, .edu__container, .skills__container{
+      text-align: justify;
+      padding: 2rem;
+}
+
+
+.about__me__container h2, .eduskill__container h2{
+      background-color: var(--color-primary-variant);
+      border: 1px solid transparent;
+      padding: 1rem;
+      border-radius: 2rem 2rem 0 0;
+      color: var(--color-primary);
+      font-weight: bold;
+      text-align: center;
+}
+.edu__container ul{
+      padding-left: 1.5rem;
+      font-size: 90%;
+}
+
+.edu__bullet__icon{
+      color: var(--color-primary);
+      margin-right: 0.5rem;
+}
+.skills{
+      display: flex;
+      flex-wrap: wrap;
+}
+.skills h5{
+      margin:0 0.4rem 0.4rem 0;      
+      background-color: var(--color-primary);
+      color: var(--color-bg);
+      border: 1px solid transparent;
+      border-radius: 2rem;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* .skills h5:hover{
+      background-color: var(--color-bg);
+} */
+
+
+/*===================== MEDIA QUERIES (TABLET DEVICES) ==================*/
+@media screen and (max-width: 1024px) {
+      .education__skills__container{
+            display: block;
+      }
+
+      .about__me__container, .eduskill__container{
+            margin-bottom: 2rem;
+      }
+
+}

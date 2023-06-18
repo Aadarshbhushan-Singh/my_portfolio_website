@@ -1,6 +1,7 @@
 header{
-      height: 100vh;
+      height: 120vh;
       padding-top: 7rem;
+      margin-bottom: 7rem;
       overflow: hidden;
 }
 
@@ -31,7 +32,7 @@ header{
 }
 
 .me{
-      width: 30rem;
+      width: 30%;
       aspect-ratio: 1/1;
       border-radius: 2rem;
       background: linear-gradient(
@@ -70,15 +71,25 @@ header{
       font-size: 0.9rem;
 }
 
+/* .header__socials, .scroll__down
+{
+      display: none;
+} */
+/* ======================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS)=====================*/
+@media screen and (max-width: 1350px) {
+      header{
+            height: 130vh;
+      }
+}
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS)=====================*/
 @media screen and (max-width: 1024px) {
       header{
-            height: 100vh;
+            height: 115vh;
       }
 
-      .me{
-            width: 25rem;
-            height: 25rem;
+      .me {
+            width: 20rem;
+            height: auto;
       }
 }
 
@@ -93,9 +104,13 @@ header{
             display: none;
       }
 
+      .header__container{
+            height: 100%;
+      }
+
       .me{
-            width: 15rem;
-            height: 15rem;
+            width: 12rem;
+            height: 12rem;
       }
 
 }
@@ -103,7 +118,7 @@ header{
 /* ======================= MEDIA QUERIES (EXTRA-SMALL DEVICES - MOBILE)=====================*/
 @media screen and (max-width: 375px) {
       header{
-            height: 120vh;
+            height: 100vh;
       }
 
       .header__socials, .scroll__down

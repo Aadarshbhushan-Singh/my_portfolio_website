@@ -18,8 +18,8 @@ function Header () {
                         <CTA></CTA>
                         <HeaderSocials/>
 
-                        <div className="me">
-                              <img src={Aadarsh} alt="MY IMAGE HERE" />
+                        <div className="me" >
+                              <img src={Aadarsh} alt="MY IMAGE HERE" id="my__profile__image"/>
                         </div>
 
 

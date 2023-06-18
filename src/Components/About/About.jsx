@@ -4,17 +4,20 @@ import ME from '../../Assets/Aadarsh-2.png'
 import {BsPersonWorkspace} from 'react-icons/bs'
 import {BiBookAdd} from 'react-icons/bi'
 import {FaAward} from 'react-icons/fa'
+
+
 function About () {
       return <>
             <section id="about">
                   <h5>Get To Know</h5>
                   <h2>ABOUT ME</h2>
                   <div className="container about__container">
-                        
+                     
                         <div className="about__content">
                                <p>
                                A skilled and dedicated computer enthusiast with prior experience in  <b className="bold__letters">Web Development</b> and <b className="bold__letters">Data Analysis</b>; proficient in <b className="bold__letters">Java</b>; ready to drive success in goal-oriented companies and become an asset.
                               </p>
+                              
                               <div className="about__cards">
                                     <a href="#experiences">
                                     <article className="about__card">

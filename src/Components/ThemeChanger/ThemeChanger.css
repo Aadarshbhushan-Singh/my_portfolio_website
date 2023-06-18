@@ -1,0 +1,28 @@
+.theme__changer__container{
+      position: absolute;
+      width: 100%;
+      display: flex;
+      top: 1%;
+      flex-direction: row;
+      cursor: pointer;
+      justify-content: center;
+}
+
+.theme__changer__container div{
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      margin: 1%;
+}
+
+.red__circle{
+      background-color: red;
+}
+
+.yellow__circle{
+      background-color: yellow;
+}
+
+.cyan__circle{
+      background-color: #4db5ff;
+}
