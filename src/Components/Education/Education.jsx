@@ -4,9 +4,19 @@ import {FaReact} from 'react-icons/fa'
 import {DiMysql} from 'react-icons/di'
 import {FaHandPointRight} from 'react-icons/fa'
 
+import { useEffect } from "react";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Education (){
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
+
+
       return<>
-            <section className='container education__skills__container' id="education">
+            <section className="container education__skills__container animation" id="education" data-aos="flip-right">
                   <div className="about__me__container">
                         <h2>Know Me</h2>
                         <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quasi, modi omnis veritatis quo, voluptatem saepe eveniet sed ad nostrum maxime, placeat officia explicabo sit quod eum laborum dolores itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique inventore, odio delectus deleniti, commodi fugiat vero saepe doloribus impedit omnis, laudantium iure optio nemo! Aliquid accusantium veniam tempore ipsa.</h5>

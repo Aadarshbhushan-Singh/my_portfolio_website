@@ -4,6 +4,11 @@ import IMG1 from '../../Assets/portfolio1.jpg'
 import IMG2 from '../../Assets/portfolio2.jpg'
 import IMG3 from '../../Assets/portfolio3.jpg'
 
+import { useEffect } from "react";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const project_list = [
       {
@@ -33,12 +38,16 @@ const project_list = [
 ];
 
 function Projects(){
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
+
       return<>
             <section id="projects">
                   <h5>What works have I done?</h5>
                   <h2>Projects</h2>
 
-                  <div className="container projects__container">
+                  <div className="container projects__container animation" data-aos="flip-down">
                         {
                               project_list.map(({id, image, project_title, project_description, github_link, read_more_link})=>{
                                     return<>

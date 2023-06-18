@@ -12,6 +12,11 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 
+import { useEffect } from "react";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 // import required modules
 import { Navigation,EffectCoverflow, Pagination, Scrollbar, A11y } from "swiper";
 
@@ -47,8 +52,11 @@ const achievement_list = [
 ]
 
 function Achievements(){
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
       return<>
-            <section id="achievements">
+            <section id="achievements" className="animation" data-aos="flip-down">
                   <h5>Here are my notable accomplishments, and I'm always working towards attaining more.</h5>
                   <h2>Achievements</h2>
 

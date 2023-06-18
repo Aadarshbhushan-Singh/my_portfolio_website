@@ -7,7 +7,10 @@ import { useState } from 'react';
 
 
 import emailjs from 'emailjs-com';
+import { useEffect } from "react";
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Contact (){
 
@@ -30,8 +33,12 @@ function Contact (){
               e.target.reset()
       };
 
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
+
       return<>
-            <section id="contacts">
+            <section id="contacts animation" data-aos="flip-right">
                   <h5>Get In Touch</h5>
                   <h2>Contact Me</h2>
 

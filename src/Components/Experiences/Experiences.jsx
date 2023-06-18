@@ -1,17 +1,25 @@
 import React from "react";
 import './Experience.css'
-import {FaRegHandPointRight} from 'react-icons/fa'
 import {FaHandPointRight} from 'react-icons/fa'
-import {GiSevenPointedStar} from 'react-icons/gi'
+
+
+import { useEffect } from "react";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Experience () {
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
+
       return<>
       <section id="experiences">
             <h5>What skills I have?</h5>
             <h2>My Work Experience</h2>
 
-            <div className="container experience__container">
-                  <div className="experience__bain">
+            <div className="container experience__container" >
+                  <div className="experience__bain animation" data-aos="fade-right">
                   <h3>Analyst Intern at <span className="experience__bold__span"> Bain & Company </span> <br /> <span className="date__span">Jan 2023 - Present </span></h3>
                         <article className="experience__details__bain">
                               <ol>
@@ -31,7 +39,7 @@ function Experience () {
                         </article>
                   </div>
 
-                  <div className="experience__ambher">
+                  <div className="experience__ambher animation" data-aos="fade-left">
                   <h3>React Developer Intern at <span className="experience__bold__span">Ambher Pvt Ltd</span> <br /> <span className="date__span">Jan 2022 - Mar 2023</span></h3>
                        <article className="experience__details__ambher">
                               <ol>

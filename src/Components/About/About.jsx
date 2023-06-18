@@ -1,14 +1,22 @@
 import React from "react";
+import { useEffect } from "react";
 import './About.css'
 import ME from '../../Assets/Aadarsh-2.png'
 import {BsPersonWorkspace} from 'react-icons/bs'
 import {BiBookAdd} from 'react-icons/bi'
 import {FaAward} from 'react-icons/fa'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function About () {
+      useEffect(()=>{
+            AOS.init({duration: 2000});
+          }, [])
+
+
       return <>
-            <section id="about">
+            <section  classname="animation" data-aos="fade-down" id="about">
                   <h5>Get To Know</h5>
                   <h2>ABOUT ME</h2>
                   <div className="container about__container">
