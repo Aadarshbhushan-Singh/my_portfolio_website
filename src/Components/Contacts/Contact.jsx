@@ -38,7 +38,7 @@ function Contact (){
           }, [])
 
       return<>
-            <section id="contacts animation" data-aos="flip-right">
+            <section id="contacts" className='animation' data-aos="flip-right">
                   <h5>Get In Touch</h5>
                   <h2>Contact Me</h2>
 
