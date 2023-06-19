@@ -21,7 +21,7 @@ function Header () {
                   <div className="container header__container animation" data-aos="flip-down">
                               <h3>Namaste! &nbsp; <FaPrayingHands/> &nbsp;&nbsp; I'm </h3>
                               <h1>Aadarshbhushan Singh</h1>
-                              <h5 className="text-light">Fullstack Developer</h5>
+                              <h5 className="text-light">Computer Science Student</h5>
                               <CTA></CTA>
                               <HeaderSocials/>
 

@@ -27,6 +27,7 @@
       background-color : transparent;
       border-color: var(--color-primary-variant); 
       cursor: default;
+      cursor: pointer;
 }
 
 .about__icon{

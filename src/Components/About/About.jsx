@@ -23,7 +23,7 @@ function About () {
                      
                         <div className="about__content">
                                <p>
-                               A skilled and dedicated computer enthusiast with prior experience in  <b className="bold__letters">Web Development</b> and <b className="bold__letters">Data Analysis</b>; proficient in <b className="bold__letters">Java</b>; ready to drive success in goal-oriented companies and become an asset.
+                               A skilled and dedicated computer enthusiast with prior experience in  <b className="bold__letters">Web Development</b> and <b className="bold__letters">Data Analysis</b>; proficient in <b className="bold__letters">Python, Java and React</b>; ready to drive success in goal-oriented companies and become an asset.
                               </p>
                               
                               <div className="about__cards">
@@ -33,14 +33,14 @@ function About () {
                                           <h5>Experience</h5>
                                                 <small> Jan 23 - Present -- Analyst Intern -- Bain & Company</small>
                                                 <br />
-                                                <small>Jan 22 - Mar 22 -- React Developer -- Ambher Pvt Ltd</small>
+                                                <small>Jan 22 - Mar 22 -- React Developer Intern -- Ambher Pvt Ltd</small>
                                     </article>
                                     </a>
                                     <a href="#projects">
                                     <article className="about__card">
                                           <BiBookAdd className="about__icon"/>
                                           <h5>Projects</h5>
-                                          <small>Proven expertise through numerous successful projects</small>
+                                          <small>Proven expertise through numerous successful projects. <br /> Click here to explore!</small>
                                     </article>
                                     </a>
                                     <a href="#achievements">
@@ -56,7 +56,7 @@ function About () {
 
                               
 
-                              <a href="#contact" className="btn btn-primary">Let's Talk</a>
+                              {/* <a href="#contact" className="btn btn-primary">Let's Talk</a> */}
                         </div>
                   </div>
             </section>

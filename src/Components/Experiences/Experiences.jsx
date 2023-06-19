@@ -53,7 +53,7 @@ function Experience () {
                                     <br />
                                     <br />
                                     <li>
-                                          <FaHandPointRight className="experience__bullet__icon"/> Became familiar with version control systems like Git and gained experience working with cross-functional teams
+                                          <FaHandPointRight className="experience__bullet__icon"/> Became familiar with version control system like Git and gained experience working with cross-functional teams
                                     </li>
                                     {/* <li>
                                           <h4>

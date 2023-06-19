@@ -5,7 +5,7 @@ function CTA () {
       return<>
             <div className="cta">
                   <a className="btn" href={resume} download={"Aadarshbhushan_Singh_Resume.pdf"} target="_blank">Download RESUME</a>
-                  <a className="btn btn-primary" href="#contact">Let's Talk</a>
+                  <a className="btn btn-primary" href="#contacts">Let's Talk</a>
                   
             </div>
       </>
