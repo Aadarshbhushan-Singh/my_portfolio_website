@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56e56405.css",
+    "main.js": "/static/js/main.efdf980e.js",
+    "static/media/me.png": "/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/Aadarsh-2.png": "/static/media/Aadarsh-2.eb189a15606bc105901f.png",
+    "static/media/Aadarshbhushan_Singh_Resume.pdf": "/static/media/Aadarshbhushan_Singh_Resume.66b7fd0b693d1a930e0c.pdf",
+    "static/media/Aadarsh_Yellow.png": "/static/media/Aadarsh_Yellow.82994eff9d94644fefb9.png",
+    "static/media/Aadarsh_Cyan.png": "/static/media/Aadarsh_Cyan.c15e3b746fb80e0b99ae.png",
+    "static/media/Aadarsh_Red.png": "/static/media/Aadarsh_Red.884be01e34d6d0708d83.png",
+    "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio1.jpg": "/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "index.html": "/index.html",
+    "main.56e56405.css.map": "/static/css/main.56e56405.css.map",
+    "main.efdf980e.js.map": "/static/js/main.efdf980e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e56405.css",
+    "static/js/main.efdf980e.js"
+  ]
+}
