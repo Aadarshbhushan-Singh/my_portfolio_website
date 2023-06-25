@@ -36,6 +36,11 @@
       gap: 1.2rem;
 }
 
+.tech_used{
+      font-weight: bold;
+      font-size: 120%;
+}
+
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS)=====================*/
 @media screen and (max-width: 1150px) {
       .projects__container{

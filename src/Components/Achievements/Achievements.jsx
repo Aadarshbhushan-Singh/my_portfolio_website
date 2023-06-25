@@ -56,7 +56,8 @@ function Achievements(){
             AOS.init({duration: 2000});
           }, [])
       return<>
-            <section id="achievements" className="animation" data-aos="flip-down">
+      <section id="achievements">
+            <section className="animation" data-aos="flip-down">
                   <h5>Here are my notable accomplishments, and I'm always working towards attaining more.</h5>
                   <h2>Achievements</h2>
 
@@ -95,6 +96,8 @@ function Achievements(){
 
 
             </section>
+
+      </section>
       </>
 }
 
